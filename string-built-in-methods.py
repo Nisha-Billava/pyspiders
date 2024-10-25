@@ -1,0 +1,30 @@
+s="nisha always think positively"
+s1=s.capitalize()
+print(s1)
+s2=s1.casefold()
+print(s2)
+s3=s.center(40,"*")
+print(s3)
+s4=s.count("i",2,30)
+print(s4)
+print('100'.isdigit())
+print('ab12'.isdigit())
+"".strip()
+s5="agbhdfg\tjkuyhbjg".expandtabs(50)
+print(s5,len(s5))
+s6="agbhdfg\tjkuyhbjg"
+print(len(s6))
+"".expandtabs()
+print("Hello\nHii".splitlines())
+print('Hello'.encode(encoding='ascii'))
+print('Hello'.encode(encoding='ascii',errors='ignore'))
+s7='Hello'.encode(encoding='ascii',errors='ignore')
+print("encoded",s7)
+for i in s7:
+    print(i,end=" ")
+print()
+
+s9=s7.decode()
+print("decoded",s9)
+for i in s9:
+    print(i,end=" ")

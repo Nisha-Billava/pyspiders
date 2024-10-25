@@ -1,0 +1,6 @@
+a=int(input("a:"))
+b=float(input("b:"))
+c=complex(input("c:"))
+print(a,type(a))
+print(b,type(b))
+print(c,type(c))
